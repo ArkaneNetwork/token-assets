@@ -13,6 +13,8 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.8
         with:
-          owner: ArkaneNetwork
+          owner: trustwallet
+          repo: assets
           base: master
           head: master
+          merge_method: rebase
