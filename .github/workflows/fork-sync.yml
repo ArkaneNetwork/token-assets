@@ -17,4 +17,3 @@ jobs:
           repo: assets
           base: master
           head: master
-          merge_method: rebase
